@@ -3,7 +3,6 @@ window.WORKS = {
     "graphics/01-kettama.png",
     "graphics/02-time-warp.png",
     "graphics/03-anotr.png",
-    "graphics/SnapInsta.to_819146626_17988368697062191_459907240355421521_n.jpg",
     "graphics/SnapInsta.to_834437375_17989878174062191_6863552228794403755_n.jpg",
     "graphics/SnapInsta.to_658358748_17967219054062191_3430396899587197160_n.jpg",
     "graphics/SnapInsta.to_670063771_17964224658062191_1961340921486912905_n.jpg",
@@ -27,7 +26,6 @@ window.WORKS = {
     "graphics/Screenshot 2026-11-23 at 12.11.25\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.10.53\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.10.40\u202fPM.png",
-    "graphics/Screenshot 2026-11-23 at 12.10.27\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.10.23\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.10.12\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.10.05\u202fPM.png",
@@ -47,7 +45,9 @@ window.WORKS = {
     "graphics/Screenshot 2026-11-23 at 12.07.02\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.06.52\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.06.43\u202fPM.png",
-    "graphics/Screenshot 2026-11-23 at 12.06.38\u202fPM.png"
+    "graphics/Screenshot 2026-11-23 at 12.06.38\u202fPM.png",
+    "graphics/z-5-fall-festivals.jpg",
+    "graphics/z-kaytranada.png"
   ],
   "motion": [
     "motion/SnapInsta.to_AQOi6qmEatPWg64tlmuAnuHSkDzlvE4bIGdov113FAN65PGFP8jHrmPLs9YEn-zkT4GpQrZDg9R1WKFifpp4vJEtCFxDp48pbnFmsdQ.mp4",

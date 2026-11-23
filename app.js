@@ -21,6 +21,39 @@ function makeVideo(src) {
   return v;
 }
 
+// Masonry that reads left-to-right: item 1, 2, 3, 4 sit across the top row,
+// then each next item drops into column (index % columnCount).
+function columnCount() {
+  const w = window.innerWidth;
+  if (w >= 1200) return 4;
+  if (w >= 900) return 3;
+  return 2;
+}
+
+const tilesByKind = { graphics: [], motion: [] };
+
+function layout(kind) {
+  const panel = panels[kind];
+  const tiles = tilesByKind[kind];
+  if (!tiles.length) return;
+  const n = columnCount();
+  if (panel.dataset.cols === String(n)) return;
+  panel.dataset.cols = n;
+  panel.innerHTML = "";
+  const cols = Array.from({ length: n }, () => {
+    const c = document.createElement("div");
+    c.className = "col";
+    panel.appendChild(c);
+    return c;
+  });
+  tiles.forEach((tile, i) => cols[i % n].appendChild(tile));
+}
+
+window.addEventListener("resize", () => {
+  layout("graphics");
+  layout("motion");
+});
+
 function fill(kind) {
   const panel = panels[kind];
   const files = works[kind] || [];
@@ -43,8 +76,9 @@ function fill(kind) {
     }
     tile.appendChild(media);
     tile.addEventListener("click", () => openLightbox(kind, src));
-    panel.appendChild(tile);
+    tilesByKind[kind].push(tile);
   });
+  layout(kind);
 }
 
 function openLightbox(kind, src) {
