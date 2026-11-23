@@ -1,0 +1,122 @@
+:root {
+  --bg: #050505;
+  --text: #f2f2f2;
+  --muted: #7a7a7a;
+  --line: #222;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Inter", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- Header ---------- */
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 56px 16px 40px;
+  text-align: center;
+}
+
+.logo { width: 96px; height: auto; margin-bottom: 28px; }
+
+.subtitle {
+  color: var(--muted);
+  font-size: 14px;
+  letter-spacing: 0.04em;
+}
+
+.tabs {
+  display: flex;
+  gap: 32px;
+  margin-top: 44px;
+}
+
+.tab {
+  background: none;
+  border: 0;
+  border-bottom: 1px solid transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  padding: 6px 0;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+}
+.tab:hover { color: var(--text); }
+.tab.is-active { color: var(--text); border-color: var(--text); }
+
+/* ---------- Masonry ---------- */
+
+main { padding: 0 24px 80px; }
+
+.grid {
+  columns: 4 260px;
+  column-gap: 12px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.grid[hidden] { display: none; }
+
+.tile {
+  break-inside: avoid;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #111;
+  cursor: zoom-in;
+}
+.tile img,
+.tile video {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s, transform 0.4s;
+}
+.tile:hover img,
+.tile:hover video { transform: scale(1.02); }
+
+.empty {
+  column-span: all;
+  color: var(--muted);
+  font-size: 14px;
+  text-align: center;
+  padding: 80px 0;
+  line-height: 1.7;
+}
+.empty code { color: var(--text); }
+
+/* ---------- Lightbox ---------- */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  cursor: zoom-out;
+  z-index: 10;
+}
+.lightbox[hidden] { display: none; }
+.lightbox img,
+.lightbox video {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+  main { padding: 0 12px 60px; }
+  .grid { columns: 2; column-gap: 8px; }
+  .tile { margin-bottom: 8px; }
+  .tabs { gap: 24px; }
+}

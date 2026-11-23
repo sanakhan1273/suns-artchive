@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sun's Artchive</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="top">
+    <img class="logo" src="sana-logo.svg" alt="Sana" />
+    <p class="subtitle">the artchive by sana</p>
+
+    <nav class="tabs" role="tablist">
+      <button class="tab" role="tab" data-tab="graphics">GRAPHIC DESIGN</button>
+      <button class="tab" role="tab" data-tab="motion">MOTION DESIGN</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="grid" id="graphics" role="tabpanel"></section>
+    <section class="grid" id="motion" role="tabpanel"></section>
+  </main>
+
+  <div class="lightbox" id="lightbox" hidden></div>
+
+  <script src="works.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
