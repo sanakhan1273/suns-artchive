@@ -2,6 +2,7 @@ window.WORKS = {
   "graphics": [
     "graphics/01-kettama.png",
     "graphics/02-time-warp.png",
+    "graphics/03-anotr.png",
     "graphics/SnapInsta.to_819146626_17988368697062191_459907240355421521_n.jpg",
     "graphics/SnapInsta.to_834437375_17989878174062191_6863552228794403755_n.jpg",
     "graphics/SnapInsta.to_658358748_17967219054062191_3430396899587197160_n.jpg",
@@ -37,7 +38,6 @@ window.WORKS = {
     "graphics/Screenshot 2026-11-23 at 12.09.04\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.08.50\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.08.45\u202fPM.png",
-    "graphics/Screenshot 2026-11-23 at 12.08.39\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.08.32\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.08.08\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.07.55\u202fPM.png",
