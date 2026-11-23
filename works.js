@@ -1,5 +1,7 @@
 window.WORKS = {
   "graphics": [
+    "graphics/01-kettama.png",
+    "graphics/02-time-warp.png",
     "graphics/SnapInsta.to_819146626_17988368697062191_459907240355421521_n.jpg",
     "graphics/SnapInsta.to_834437375_17989878174062191_6863552228794403755_n.jpg",
     "graphics/SnapInsta.to_658358748_17967219054062191_3430396899587197160_n.jpg",
@@ -15,7 +17,6 @@ window.WORKS = {
     "graphics/Screenshot 2026-11-23 at 12.19.29\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.18.53\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.18.44\u202fPM.png",
-    "graphics/Screenshot 2026-11-23 at 12.18.36\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.17.57\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.16.58\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.12.55\u202fPM.png",
@@ -42,7 +43,6 @@ window.WORKS = {
     "graphics/Screenshot 2026-11-23 at 12.07.55\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.07.48\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.07.40\u202fPM.png",
-    "graphics/Screenshot 2026-11-23 at 12.07.35\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.07.12\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.07.02\u202fPM.png",
     "graphics/Screenshot 2026-11-23 at 12.06.52\u202fPM.png",
